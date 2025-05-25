@@ -35,6 +35,7 @@ labelfont=bf]{caption}        % Set caption to correct size and location
 \RequirePackage{pdfpages}
 \RequirePackage{pdflscape}
 \RequirePackage{tabularx}
+\RequirePackage{pdfpages}
 
 % --- Setup parameter indentation --- %
 \setlength{\parindent}{0pt}
