@@ -34,7 +34,7 @@ labelfont=bf]{caption}        % Set caption to correct size and location
 \RequirePackage{lipsum}       % Generate text, unnecessary apart from the example
 \RequirePackage{pdfpages}
 \RequirePackage{pdflscape}
-\RequirePackage{tabularx}
+\RequirePackage{xltabular}
 \RequirePackage{pdfpages}
 
 % --- Setup parameter indentation --- %
