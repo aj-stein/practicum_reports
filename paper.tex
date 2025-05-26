@@ -22,14 +22,14 @@ I will use this research to design and evaluate an alternative to centralized co
 \section*{Completed Tasks (Last 2 Weeks)}
 
 \begin{enumerate}
-    \item I read twenty-two references (journal articles; website articles; book chapters) to identify my project in a large context and understand supporting arguments. I concentrated on the topics below.
+    \item I read twenty-two references (journal articles; website articles; book chapters) to identify my project in its larger context and understand supporting arguments. I concentrated on the topics below.
         \begin{itemize}
-            \item primary source material from FedRAMP, especially process and procedure documentation
-            \item industry analysis and criticism of FedRAMP processes and their impact on FedRAMP stakeholders
-            \item technical methods for monitoring multi-account and multi-tenant cloud service deployments
-            \item conceptual models, methods, and literature for quantitative cloud security analysis
-            \item transparency service specifications (e.g. \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/}{SCITT}; \hyperlink{https://c2sp.org/static-ct-api}{C2SP Static Certificate Transparency API}) and industry analysis of their efficacy
-            \item taxonomies and models for auditing and monitoring
+            \item primary source material from FedRAMP, especially process and procedure documentation (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#1})
+            \item industry analysis and criticism of FedRAMP processes and their impact on FedRAMP stakeholders (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#1})
+            \item technical methods for monitoring multi-account and multi-tenant cloud service deployments (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverables \#2 and \#4})
+            \item conceptual models, methods, and literature for quantitative cloud security analysis (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverables \#2 and \#4})
+            \item transparency service specifications (e.g. \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/}{SCITT}; \hyperlink{https://c2sp.org/static-ct-api}{C2SP Static Certificate Transparency API}) and industry analysis of their efficacy (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#3})
+            \item taxonomies and models for auditing and monitoring (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#2})
         \end{itemize}
     \item I presented a proposal and reviewed scope of research with four advisors that are highly familiar with FedRAMP strategy, policies, and operations. Three advisors have accepted, while one's acceptance is still pending.
     \item I began an outline for critical analysis for FedRAMP's centralized continuous monitoring model (\hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{e.g. proposal deliverable \#1}).
@@ -59,7 +59,7 @@ In the next two weeks, I will focus on the following goals. I have sorted them i
 \subsection*{Project Scope}
 
 \begin{enumerate}
-    \item One of my deliverables (a critical analysis of FedRAMP's current approach) is not a prerequisite I must complete to start other deliverables, but will establish important qualitative background for the others and provide detailed background for the final report. Should I include this deliverable in the final project appendix or use it as an input for a summary analysis in the final report only?
+    \item One of my deliverables (a critical analysis of FedRAMP's current approach) is not a prerequisite I must complete to start other deliverables, but will establish important qualitative detailed background for readers, but likely it will be too detailed for the final report. Should I include this deliverable in the final report appendix or use it as an input for a summary analysis in the final report only?
     \item One of my deliverables will be a prototype of federated data service, which will have server and client components that does statistical analysis of data. There will not be a user-friendly web interface to keep scope focused and meet the projected timeline. Is this reasonable?
     \item If I cannot complete all the code for the prototype and I must scope down the prototype, do I inventory outstanding work in the future work section of the final report? Will this negatively impact my final grade for this project. Is this normal and expected?
 \end{enumerate}
@@ -67,39 +67,70 @@ In the next two weeks, I will focus on the following goals. I have sorted them i
 \subsection*{Evaluation and Measurement}
 
 \begin{enumerate}
-    \item I am proposing a novel solution that is considerably different from the current state without an ``apples to apples" comparison, but rather an ``apples to oranges" comparison. The difference is significant factor to improve on the current state. However, direct comparison is difficult. Is there any significant risk to my project if I design my own quantitative and qualitative metrics?    
+    \item I am proposing a novel solution that is considerably different from the current state without an ``apples to apples" comparison. It is more like an ``apples to oranges" comparison. The difference is a significant factor to improve on the current state. However, direct comparison is difficult. Is there any significant risk to my project if I design my own quantitative and qualitative metrics?    
 \end{enumerate}
 
 \section*{Methodology Paragraph Summary}
 
+For this project, I will use multiple methods to implement an alternative architecture for monitoring cloud services and modeling its potential impact. To start, I will use a quantitative and qualitative analysis of the current shortcomings and gaps for the current FedRAMP Continuous Monitoring Program. This will be the primary example of centralized continuous to which I will compare you mutual monitoring model. For qualitative analysis, I can perform textual analysis and sentiment analysis. I will leverage academic analysis, industry analysis, and a new primary source: FedRAMP's web-based forums for \hyperlink{https://www.fedramp.gov/20x/working-groups/}{the 20x reform initiative and its community working groups}. In these forums, stakeholders discuss their praise and criticism of current centralized processes and plans for future ones. In addition, I will use publicly available information from FedRAMP and industry analysis to quantify the burden of the current FedRAMP Continuous Monitoring and its manual workflow. As I build a prototype based on my architecture, I will design several use cases to estimate the cost and resource efficiency in comparison to the current processes with their manual workflows. In addition to these methods, I will use advisors familiar with FedRAMP from different stakeholder perspectives to validate information or analysis where these methods prove lacking and leave gaps.
+
 \section*{Timeline}
-\begin{table}[h]
-\begin{tabularx}{\textwidth}{|l|X|l|}
+
+\begin{xltabular}{\textwidth}{|l|X|l|}
+    % \caption{Timeline for Mutual Monitoring Project} 
+    % \label{tab:timeline} \\
+    \hline \multicolumn{1}{|c|}{\textbf{Week \#}} & \multicolumn{1}{c|}{\textbf{Description of Task}} & \multicolumn{1}{c|}{\textbf{Status}} \\
+    \endfirsthead
     \hline
-    Week \# & Description of Task & Status \\ [0.5ex] 
+    % \multicolumn{3}{c}%
+    % {\tablename\ \thetable{} -- continued from previous page} \\
+    % \hline \multicolumn{1}{|c|}{\textbf{Week \#}} & \multicolumn{1}{c|}{\textbf{Description of Task}} & \multicolumn{1}{c|}{\textbf{Status}} \\ \hline 
+    % \endhead
+    % \hline \multicolumn{3}{|r|}{{Continued on next page}} \\ \hline
+    % \endfoot    
+    % \hline
+    % \endlastfoot
+    W1 (May 12-18) & Identify references for key research topics. & Complete \\
     \hline
-    W1 (May 12-18) & Identify references for key research topics & Complete \\
+    W1 & Identify advisors to review FedRAMP analysis and architecture. & Complete \\
     \hline
-    W1 & Identify advisors to review FedRAMP analysis and architecture & Complete \\
+    W2 (May 19-25) & Initialize code repository for prototype service. & Complete \\
     \hline
-    W2 (May 19-25) & Initialize code repository for prototype service & Complete \\
+    W2 & Present proposal to advisors and integrate feedback; obtain commitment from advisors. & In Progress \\
     \hline
-    W2 & Present proposal to advisors and integrate feedback; obtain commitment from advisors & In Progress \\
+    W2 & Read FedRAMP documentation for continuous monitoring processes. & In Progress \\
     \hline
-    W2 & Read FedRAMP documentation for ConMon processes & In Progress \\
+    W2 & Begin outline of FedRAMP ConMon critical analysis. & In Progress \\
     \hline
-    W2 & Begin outline of FedRAMP ConMon critical analysis & In Progress \\
+    W3 (May 26 - Jun 1) & Implement data service internals and submission API. & Pending \\
     \hline
-    W3 (May 26 - Jun 1) & placeholder \\
+    W3 (May 26 - Jun 1) & First draft of data service architecture specification. & Pending \\
     \hline
-    W4 (June 2-8) & placeholder \\
+    W4 (June 2-8) & Implement data service internals and submission API. & Pending \\
     \hline
-    W5 (June 9-15) & placeholder \\
-    \hline
-    W6 (June 9-15) & placeholder \\
+    W4 & Finalize architecture specification with advisors' reviews. & Pending \\
     \hline    
-\end{tabularx}
-\end{table}
+    W5 (June 9-15) & Implement data service client to submit to submission API instances. & Pending \\
+    \hline
+    W5 & Complete data service internals and submission API. & Pending \\
+    \hline
+    W5 & Complete FedRAMP critical analysis document. & Pending \\
+    \hline
+    W6 (June 16-22) & Complete data service client to submit to submission API instances. & Pending \\
+    \hline
+    W6 (June 16-22) & Implement continuous monitoring quantitative processing module for API. & Pending \\
+    \hline
+    W6 & Design MVP continuous monitoring use cases and quantitative measurements. & Pending \\
+    \hline
+    W7 (June 23-29) & Complete continuous monitoring quantitative processing module for API. & Pending \\
+    \hline
+    W7 & Implement MVP continuous monitoring use cases in API quantitative processing module. & Pending \\
+    \hline    
+    W8 (June 30 - July 6) & Start prototype deployment to cloud service tenants for testing. & Pending \\
+    \hline
+    W9 (July 7-13) & Complete prototype deployment to cloud service tenants for testing. & Pending \\
+    \hline
+\end{xltabular}
 
 \section*{Evaluation}
 
@@ -126,8 +157,8 @@ In the next two weeks, I will focus on the following goals. I have sorted them i
 \includepdf[pages=-]{../proposal/paper.pdf}
 
 
-\subsection*{Project Outline}
-\label{appendix:outline}
-\includepdf[pages=-]{../notes.pdf}
+% \subsection*{Project Outline}
+% \label{appendix:outline}
+% \includepdf[pages=-]{../notes.pdf}
 
 \end{document}
