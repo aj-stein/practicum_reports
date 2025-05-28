@@ -27,7 +27,7 @@ $(MARP_EXE):
 %.pdf: %.tex
 	$(LATEXMK) -pdf -M -MP -MF $*.d $*
 
-%.pdf: $(MARP_EXE) %.md
+%.pdf: %.md $(MARP_EXE)
 	$(NPX) $(MARP_PKG) $(MARP_ARGS) $< -o $@
 
 mostlyclean:
