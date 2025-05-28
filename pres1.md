@@ -1,18 +1,22 @@
 ---
-slideOptions:
-  transition: slide
+marp: true
+title: "Mutual Monitoring Updates"
+author: A.J. Stein
+paginate: true
 ---
 
 # Mutual Monitoring Update
 
 Progress Report 1
 
+A.J. Stein
 [astein38@gatech.edu](mailto:astein38@gatech.edu)
 
 ---
 
 ## Problem 
 
+- Cloud service providers are everywhere, but their security is complex.
 - Continuous monitoring is complex, tedious multi-party process.
     - FedRAMP is a very public example.
 - Everything is manual.
@@ -23,8 +27,8 @@ Progress Report 1
 
 ## Solution
 
-- Examine FedRAMP as a prime exmaple.
-- Reimagine a new system
+- Examine FedRAMP as a prime example.
+- Re-imagine a new system
     - with a new technological approach; and
     - change the process and how people interact.
 - Estimate improved cost and performance.
@@ -33,9 +37,10 @@ Progress Report 1
 
 ## Status
 
-- Desk research
-- Document outline
-- Draft writing
+- Consulted FedRAMP experts to advise project.
+- Completed desk research.
+- Started outline for document drafts.
+- Initiated architecture draft.
 
 ---
 
@@ -47,9 +52,14 @@ Progress Report 1
 
 ---
 
-## Conclusion
+## Questions & Comments
 
-Et fin.
+- You can provide feedback in multiple ways.
+- Post in the class discussion board in Canvas.
+- Open issues in my GitHub repo at [github.com/aj-stein/practicum](https://github.com/aj-stein/practicum.git).
 
 ---
 
+## Conclusion
+
+Et fin.

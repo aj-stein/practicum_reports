@@ -5,8 +5,12 @@
 # makefile-for-a-latex-report/318595#318595
 
 # Tools
-LATEXMK = latexmk
-RM = rm -f
+LATEXMK := latexmk
+RM := rm -
+NPX := npx
+MARP_PKG := @marp-team/marp-cli
+MARP_EXE := node_modules/$(MARP_PKG)/marp-cli.js
+MARP_ARGS := -c marp.config.js
 
 # Project-specific settings
 DOCNAME = paper
@@ -16,13 +20,20 @@ all: doc
 doc: pdf
 pdf: $(DOCNAME).pdf
 
+$(MARP_EXE):
+	npm ci
+
 # Rules
 %.pdf: %.tex
 	$(LATEXMK) -pdf -M -MP -MF $*.d $*
 
+%.pdf: $(MARP_EXE) %.md
+	$(NPX) $(MARP_PKG) $(MARP_ARGS) $< -o $@
+
 mostlyclean:
 	$(LATEXMK) -silent -c
 	$(RM) *.bbl
+	$(RM) *.pdf
 
 clean: mostlyclean
 	$(LATEXMK) -silent -C
