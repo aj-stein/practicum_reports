@@ -22,19 +22,22 @@ I will use this research to design and evaluate an alternative to centralized co
 \section*{Completed Tasks (Last 2 Weeks)}
 
 \begin{enumerate}
-    \item I read twenty-one references (journal articles; website articles; book chapters) to identify my project in its larger context and understand supporting arguments. I concentrated on the topics below.
+    \item I developed a build workflow and automated publication pipeline for the \hyperlink{https://add-architecture-draft--conmotion.netlify.app/architecture.html}{draft architecture specification}. Fixing bugs and troubleshooting took more time than I estimated in my plan.
         \begin{itemize}
-            \item primary source material from FedRAMP, especially process and procedure documentation (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#1})
-            \item industry analysis and criticism of FedRAMP processes and their impact on FedRAMP stakeholders (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#1})
-            \item technical methods for monitoring multi-account and multi-tenant cloud service deployments (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverables \#2 and \#4})
-            \item conceptual models, methods, and literature for quantitative cloud security analysis (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverables \#2 and \#4})
+            \item I evaluated \hyperlink{https://github.com/martinthomson/i-d-template}{the use of software for authoring specifications popular with IETF standards authors}.
+            \item Due to complexity of modifying the aforementioned tooling to remove IETF branding, copyright notices, styling, and features not suitable to my specification, I designed a workflow to author and manage drafts of the specification alongside \hyperlink{https://github.com/aj-stein/conmotion/}{the same source code repository for the prototype} using the open-source \hyperlink{https://pandoc.org/}{pandoc utility}.
+            \item I developed \hyperlink{https://github.com/aj-stein/conmotion/blob/develop/.github/workflows/cd.yml}{execute the publication workflow for the specification remotely in GitHub Actions} to make the authoring process more consistent over time.
+            \item I created and completed troubleshooting on a deployment pipeline for \hyperlink{https://aj-stein.github.io/conmotion/}{final complete copy} and \hyperlink{https://conmotion.netlify.app/}{incremental draft copies} of the specification. The latter is helpful to streamline feedback with multiple advisors with different copies of changes in parallel. I will integrate this work into managing later deployments of the transparency service prototypes, greatly improving productivity. 
+            \item Due to the custom needs of how I deployed pandoc, I created a \hyperlink{https://github.com/users/aj-stein/packages/container/package/pandoc\%2Flatex}{customized container image} for building the website and a PDF copy.
+            \item I extended my publication workflow to generate images from architecture diagrams in \hyperlink{https://mermaid.js.org/}{the Mermaid family of declarative domain-specific languages for diagrams}.
+            \item I extended my publication workflow to automatically convert the PDF copy and cross-link to it on the web version to suit the preferences of several of my advisors.
+        \end{itemize}
+    \item I began writing \hyperlink{https://add-architecture-draft--conmotion.netlify.app/architecture.html}{draft architecture specification}. I have not completed it on schedule due to the troubleshooting described above.
+    \item For authoring the specification and preparing to develop the core of the prototype, I reviewed the sources below and modified the outline accordingly.
+        \begin{itemize}
             \item transparency service specifications (e.g. \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/}{SCITT}; \hyperlink{https://c2sp.org/static-ct-api}{C2SP Static Certificate Transparency API}) and industry analysis of their efficacy (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#3})
             \item taxonomies and models for auditing and monitoring (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#2})
         \end{itemize}
-    \item I presented a proposal and reviewed scope of research with four advisors that are highly familiar with FedRAMP strategy, policies, and operations. Three advisors have accepted, while one's acceptance is still pending.
-    \item I began an outline for critical analysis for FedRAMP's centralized continuous monitoring model (\hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{e.g. proposal deliverable \#1}).
-    \item I initialized a \hyperlink{https://github.com/aj-stein/conmotion.git}{code repository} to save the architecture documents and prototype code in version control (e.g. \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{proposal deliverables \#2 and \#3}, respectively).
-    \item I incorporated feedback from Professor Kuerbis to add and adjust research topics and evaluation methods in my \hyperlink{https://github.com/aj-stein/practicum/blob/main/notes.pdf}{outline for the project and specific deliverables}.
 \end{enumerate}
 
 \section*{Tasks for the Next Project Report}
@@ -42,8 +45,8 @@ I will use this research to design and evaluate an alternative to centralized co
 In the next two weeks, I will focus on the following goals. I have sorted them in order of priority.
 
 \begin{enumerate}
-    \item Complete first draft of federated data service architecture, request feedback from advisors.
-    \item Implement primary component of data service, submission API for cloud service providers and external third-party auditors.
+    \item Request feedback from advisors for the initial draft of the architecture specification.
+    \item Start development on implementation primary component of data service, submission API for cloud service providers and external third-party auditors.
     \item Complete outline of FedRAMP critical analysis.
     \item Start draft of FedRAMP critical analysis, request feedback from advisors.
 \end{enumerate}
