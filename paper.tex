@@ -27,13 +27,13 @@ I will use this research to design and evaluate an alternative to centralized co
             \item I evaluated \hyperlink{https://github.com/martinthomson/i-d-template}{the use of software for authoring specifications popular with IETF standards authors}.
             \item Due to complexity of modifying the aforementioned tooling to remove IETF branding, copyright notices, styling, and features not suitable to my specification, I designed a workflow to author and manage drafts of the specification alongside \hyperlink{https://github.com/aj-stein/conmotion/}{the same source code repository for the prototype} using the open-source \hyperlink{https://pandoc.org/}{pandoc utility}.
             \item I developed \hyperlink{https://github.com/aj-stein/conmotion/blob/develop/.github/workflows/cd.yml}{an automation pipeline to execute the publication workflow for the specification remotely in GitHub Actions} to make the authoring process more consistent over time.
-            \item I created and completed troubleshooting on a deployment pipeline for \hyperlink{https://aj-stein.github.io/conmotion/}{the final release} and \hyperlink{https://conmotion.netlify.app/}{incremental draft copies} of the specification. The latter is helpful to streamline feedback with multiple advisors with different copies of changes in parallel. I will integrate this work into managing later deployments of the transparency service prototypes, greatly improving productivity. 
+            \item I created and completed troubleshooting on a deployment pipeline for \hyperlink{https://aj-stein.github.io/conmotion/}{the final release} and \hyperlink{https://conmotion.netlify.app/}{incremental draft copies} of the architecture specification. The latter is helpful to streamline feedback with multiple advisors with different copies of changes in parallel. I will also leverage this tooling and infrastructure to manage later deployments of the transparency service prototypes, greatly improving productivity. 
             \item Due to the custom needs of how I deployed pandoc, I created a \hyperlink{https://github.com/users/aj-stein/packages/container/package/pandoc\%2Flatex}{customized container image} for building the website and a PDF copy.
             \item I extended my publication workflow to generate images from architecture diagrams in \hyperlink{https://mermaid.js.org/}{the Mermaid family of declarative domain-specific languages for diagrams}.
-            \item I extended my publication workflow to automatically convert the PDF copy and cross-link to it on the web version to suit the preferences of several of my advisors.
+            \item I extended my publication workflow to automatically convert the architecture specification webpage into a PDF document and cross-link to it from the webpage to better suit the preferences of several of my advisors.
         \end{itemize}
-    \item I began writing \hyperlink{https://add-architecture-draft--conmotion.netlify.app/architecture.html}{draft architecture specification}. I have not completed it on schedule due to the troubleshooting described above.
-    \item For authoring the specification and preparing to develop the core of the prototype, I reviewed the sources below and modified the outline accordingly.
+    \item I wrote several sections of \hyperlink{https://add-architecture-draft--conmotion.netlify.app/architecture.html}{the architecture specification draft}. I have not completed it on schedule due to the troubleshooting described above.
+    \item For authoring the specification and preparing to develop the core of the prototype, I reviewed the sources below in more detail, modifying the outline and specification accordingly.
         \begin{itemize}
             \item transparency service specifications (e.g. \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/}{SCITT}; \hyperlink{https://c2sp.org/static-ct-api}{C2SP Static Certificate Transparency API}) and industry analysis of their efficacy (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#3})
             \item taxonomies and models for auditing and monitoring (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#2})
@@ -50,7 +50,7 @@ In the next two weeks, I will focus on the following goals. I have sorted them i
     \item Ramp up development of submission API for cloud service providers and external third-party auditors.
     \item Complete the architecture specification in full.
     \item Complete outline of FedRAMP critical analysis.
-    \item Start draft of FedRAMP critical analysis, request feedback from advisors.
+    \item Start draft of FedRAMP critical analysis and potentially complete it so I can request feedback from advisors.
 \end{enumerate}
 
 \section*{Questions or issues I'm having}
@@ -58,8 +58,8 @@ In the next two weeks, I will focus on the following goals. I have sorted them i
 \subsection*{Evaluation and Measurement}
 
 \begin{enumerate}
-    \item For more consistency, objectivity, and productivity with sentiment analysis, I am considering the using hosted (e.g. OpenAI ChatGPT, Anthropic Claude) or preferably self-hosted (e.g. ollama and open-weight models) LLM tools to analyze the content in lieu of developing my own Python code. Is this permissible? If so, how do I correctly document and cite this analysis?
-    \item Many security operations staff do not formally criticize FedRAMP and other programs that require continuous monitoring ``on the record'' with their name and affiliation in peer-reviewed journals. However, they frequently write about their frustrations with these programs on social media, primarily by name on LinkedIn and with pseudonyms on platforms like Reddit, Bluesky, and X/Twitter. Is it permissible to consider these as primary sources for quotations? Is it permissible to use them for sentiment analysis?
+    \item For more consistency, objectivity, and productivity with sentiment analysis, I am considering using hosted (e.g. OpenAI ChatGPT, Anthropic Claude) or preferably self-hosted (e.g. ollama and open-weight models) LLM tools to analyze the content in lieu of developing my own Python code. Is this permissible? If so, how do I correctly document and cite this analysis?
+    \item Many security professionals do not formally criticize FedRAMP and other programs that require continuous monitoring ``on the record'' with their name and affiliation in peer-reviewed journals or in the mainstream media. However, they frequently write about their frustrations with these programs on social media, primarily by name on LinkedIn and with pseudonyms on platforms like Reddit, Bluesky, and X/Twitter. Is it permissible to consider these as primary sources for quotations? Is it permissible to use them for sentiment analysis?
     \item Some users post statistics on aggregated responses to polls on related topics without attribution or details about the respondents. Is it permissible for me to use these polls in my deliverables and final report? Am I allowed to create such polls myself and use them in the final report?
 \end{enumerate}
 
