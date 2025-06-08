@@ -27,7 +27,7 @@ I will use this research to design and evaluate an alternative to centralized co
             \item I evaluated \hyperlink{https://github.com/martinthomson/i-d-template}{the use of software for authoring specifications popular with IETF standards authors}.
             \item Due to complexity of modifying the aforementioned tooling to remove IETF branding, copyright notices, styling, and features not suitable to my specification, I designed a workflow to author and manage drafts of the specification alongside \hyperlink{https://github.com/aj-stein/conmotion/}{the same source code repository for the prototype} using the open-source \hyperlink{https://pandoc.org/}{pandoc utility}.
             \item I developed \hyperlink{https://github.com/aj-stein/conmotion/blob/develop/.github/workflows/cd.yml}{an automation pipeline to execute the publication workflow for the specification remotely in GitHub Actions} to make the authoring process more consistent over time.
-            \item I created and completed troubleshooting on a deployment pipeline for \hyperlink{https://aj-stein.github.io/conmotion/}{final complete copy} and \hyperlink{https://conmotion.netlify.app/}{incremental draft copies} of the specification. The latter is helpful to streamline feedback with multiple advisors with different copies of changes in parallel. I will integrate this work into managing later deployments of the transparency service prototypes, greatly improving productivity. 
+            \item I created and completed troubleshooting on a deployment pipeline for \hyperlink{https://aj-stein.github.io/conmotion/}{the final release} and \hyperlink{https://conmotion.netlify.app/}{incremental draft copies} of the specification. The latter is helpful to streamline feedback with multiple advisors with different copies of changes in parallel. I will integrate this work into managing later deployments of the transparency service prototypes, greatly improving productivity. 
             \item Due to the custom needs of how I deployed pandoc, I created a \hyperlink{https://github.com/users/aj-stein/packages/container/package/pandoc\%2Flatex}{customized container image} for building the website and a PDF copy.
             \item I extended my publication workflow to generate images from architecture diagrams in \hyperlink{https://mermaid.js.org/}{the Mermaid family of declarative domain-specific languages for diagrams}.
             \item I extended my publication workflow to automatically convert the PDF copy and cross-link to it on the web version to suit the preferences of several of my advisors.
@@ -38,15 +38,17 @@ I will use this research to design and evaluate an alternative to centralized co
             \item transparency service specifications (e.g. \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/}{SCITT}; \hyperlink{https://c2sp.org/static-ct-api}{C2SP Static Certificate Transparency API}) and industry analysis of their efficacy (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#3})
             \item taxonomies and models for auditing and monitoring (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#2})
         \end{itemize}
+    \item I began the development of initial framework code and test harness for the primary component of the data service, but did not complete full development of the transparency service code.
+    \item I continued work on outline for the critical analysis of FedRAMP, but it is not yet complete.
 \end{enumerate}
 
 \section*{Tasks for the Next Project Report}
 
-In the next two weeks, I will focus on the following goals. I have sorted them in order of priority.
+In the next two weeks, I will focus on the following goals. I have sorted them in order of priority. I will have to pick up missed milestones for weeks three and four due to the troubleshooting described above.
 
 \begin{enumerate}
-    \item Request feedback from advisors for the initial draft of the architecture specification.
-    \item Start development of submission API for cloud service providers and external third-party auditors.
+    \item Ramp up development of submission API for cloud service providers and external third-party auditors.
+    \item Complete the architecture specification in full.
     \item Complete outline of FedRAMP critical analysis.
     \item Start draft of FedRAMP critical analysis, request feedback from advisors.
 \end{enumerate}
@@ -81,35 +83,31 @@ For this project, I will use multiple methods to implement an alternative archit
     % \endfoot    
     % \hline
     % \endlastfoot
-    W1 (May 12-18) & Identify references for key research topics. & Complete \\
+    W3 (May 26 - Jun 1) & Implement data service internals and submission API. & Deferred \\
     \hline
-    W1 & Identify advisors to review FedRAMP analysis and architecture. & Complete \\
+    W3 & First draft of data service architecture specification. & Deferred \\
     \hline
-    W2 (May 19-25) & Initialize code repository for prototype service. & Complete \\
+    W4 (June 2-8) & Implement data service internals and submission API. & In Progress \\
     \hline
-    W2 & Present proposal to advisors and integrate feedback; obtain commitment from advisors. & In Progress \\
-    \hline
-    W2 & Read FedRAMP documentation for continuous monitoring processes. & In Progress \\
-    \hline
-    W2 & Begin outline of FedRAMP ConMon critical analysis. & In Progress \\
-    \hline
-    W3 (May 26 - Jun 1) & Implement data service internals and submission API. & Pending \\
-    \hline
-    W3 (May 26 - Jun 1) & First draft of data service architecture specification. & Pending \\
-    \hline
-    W4 (June 2-8) & Implement data service internals and submission API. & Pending \\
-    \hline
-    W4 & Finalize architecture specification with advisors' reviews. & Pending \\
+    W3 (May 26 - Jun 1) & First draft of data service architecture specification. & In Progress \\
     \hline    
-    W5 (June 9-15) & Implement data service client to submit to submission API instances. & Pending \\
+    W4 & Continue outline of FedRAMP ConMon critical analysis. & In Progress \\
+    \hline    
+    W4 & Finalize architecture specification with advisors' reviews. & Deferred \\
+    \hline
+    W5 (June 9-15) & Implement data service client to submit to submission API instances. & In Progress \\
     \hline
     W5 & Complete data service internals and submission API. & Pending \\
     \hline
+    W5 & Complete outline of FedRAMP ConMon critical analysis. & In Progress \\
+    \hline    
     W5 & Complete FedRAMP critical analysis document. & Pending \\
     \hline
+    W5 & Finalize architecture specification with advisors' reviews. & Pending \\
+    \hline    
     W6 (June 16-22) & Complete data service client to submit to submission API instances. & Pending \\
     \hline
-    W6 (June 16-22) & Implement continuous monitoring quantitative processing module for API. & Pending \\
+    W6 & Implement continuous monitoring quantitative processing module for API. & Pending \\
     \hline
     W6 & Design MVP continuous monitoring use cases and quantitative measurements. & Pending \\
     \hline
