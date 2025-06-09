@@ -22,17 +22,17 @@ I will use this research to design and evaluate an alternative to centralized co
 \section*{Completed Tasks (Last 2 Weeks)}
 
 \begin{enumerate}
-    \item I developed a build workflow and automated publication pipeline for the \hyperlink{https://add-architecture-draft--conmotion.netlify.app/architecture.html}{draft architecture specification}. Fixing bugs and troubleshooting took more time than I estimated in my plan.
+    \item I developed an automated build pipeline for \hyperlink{https://add-architecture-draft--conmotion.netlify.app/architecture.html}{the architecture specification} as a website and downloadable document. Fixing bugs and troubleshooting took more time than I estimated in my plan.
         \begin{itemize}
             \item I evaluated \hyperlink{https://github.com/martinthomson/i-d-template}{the use of software for authoring specifications popular with IETF standards authors}.
-            \item Due to complexity of modifying the aforementioned tooling to remove IETF branding, copyright notices, styling, and features not suitable to my specification, I designed a workflow to author and manage drafts of the specification alongside \hyperlink{https://github.com/aj-stein/conmotion/}{the same source code repository for the prototype} using the open-source \hyperlink{https://pandoc.org/}{pandoc utility}.
+            \item Due to complexity of modifying the aforementioned tooling to remove IETF branding, copyright notices, styling, and features not suitable to my specification, I designed a workflow to author and manage drafts of the specification, in \hyperlink{https://github.com/aj-stein/conmotion/}{the same source code repository for the prototype}, using the open-source \hyperlink{https://pandoc.org/}{pandoc utility}.
             \item I developed \hyperlink{https://github.com/aj-stein/conmotion/blob/develop/.github/workflows/cd.yml}{an automation pipeline to execute the publication workflow for the specification remotely in GitHub Actions} to make the authoring process more consistent over time.
-            \item I created and completed troubleshooting on a deployment pipeline for \hyperlink{https://aj-stein.github.io/conmotion/}{the final release} and \hyperlink{https://conmotion.netlify.app/}{incremental draft copies} of the architecture specification. The latter is helpful to streamline feedback with multiple advisors with different copies of changes in parallel. I will also leverage this tooling and infrastructure to manage later deployments of the transparency service prototypes, greatly improving productivity. 
-            \item Due to the custom needs of how I deployed pandoc, I created a \hyperlink{https://github.com/users/aj-stein/packages/container/package/pandoc\%2Flatex}{customized container image} for building the website and a PDF copy.
+            \item I created and completed troubleshooting on a deployment pipeline for \hyperlink{https://aj-stein.github.io/conmotion/}{the final release} and \hyperlink{https://conmotion.netlify.app/}{incremental draft copies} of the architecture specification to separate release environments. The latter is helpful to streamline feedback with multiple advisors with different copies of changes in parallel. I will also leverage this tooling and infrastructure to manage later deployments of the transparency service prototypes, greatly improving productivity. 
+            \item Due to the custom needs of how I deployed pandoc, I created a \hyperlink{https://github.com/users/aj-stein/packages/container/package/pandoc\%2Flatex}{customized container image} for building the website and convert the website content into a downloadable PDF document.
             \item I extended my publication workflow to generate images from architecture diagrams in \hyperlink{https://mermaid.js.org/}{the Mermaid family of declarative domain-specific languages for diagrams}.
             \item I extended my publication workflow to automatically convert the architecture specification webpage into a PDF document and cross-link to it from the webpage to better suit the preferences of several of my advisors.
         \end{itemize}
-    \item I wrote several sections of \hyperlink{https://add-architecture-draft--conmotion.netlify.app/architecture.html}{the architecture specification draft}. I have not completed it on schedule due to the troubleshooting described above.
+    \item I wrote multiple sections of \hyperlink{https://add-architecture-draft--conmotion.netlify.app/architecture.html}{the architecture specification draft}. Due to the time spent troubleshooting, I have several more sections to complete.
     \item For authoring the specification and preparing to develop the core of the prototype, I reviewed the sources below in more detail, modifying the outline and specification accordingly.
         \begin{itemize}
             \item transparency service specifications (e.g. \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/}{SCITT}; \hyperlink{https://c2sp.org/static-ct-api}{C2SP Static Certificate Transparency API}) and industry analysis of their efficacy (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#3})
@@ -44,7 +44,7 @@ I will use this research to design and evaluate an alternative to centralized co
 
 \section*{Tasks for the Next Project Report}
 
-In the next two weeks, I will focus on the following goals. I have sorted them in order of priority. I will have to pick up missed milestones for weeks three and four due to the troubleshooting described above.
+In the next two weeks, I will focus on the following goals. I have sorted them in order of priority. I will have shift focus to complete and start milestones previously scheduled for weeks three and four due to the troubleshooting described above.
 
 \begin{enumerate}
     \item Ramp up development of submission API for cloud service providers and external third-party auditors.
