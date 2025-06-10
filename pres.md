@@ -7,7 +7,7 @@ paginate: true
 
 # Mutual Monitoring Update
 
-Progress Report 1
+Progress Report 2
 
 A.J. Stein
 [astein38@gatech.edu](mailto:astein38@gatech.edu)
@@ -37,22 +37,21 @@ A.J. Stein
 
 ## Status
 
-- Consulted FedRAMP experts to advise project.
-- Completed desk research.
-- Started outline for document drafts.
-- Initiated architecture draft.
+---
+
+## Challenges
 
 ---
 
-## Challenges & Questions
+### Questions
 
-- Deliverables
-- Project Scope
-- Evaluation Methods
+--- 
+
+### Next Week's Focus
 
 ---
 
-## Questions & Comments
+## Feedback
 
 - You can provide feedback in multiple ways.
 - Post in the class discussion board in Canvas.
@@ -63,3 +62,5 @@ A.J. Stein
 ## Conclusion
 
 Et fin.
+
+(See you all again in two weeks.)
