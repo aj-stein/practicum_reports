@@ -46,8 +46,8 @@ A.J. Stein
 
 :gift: :one: Critical analysis of FedRAMP
 :gift: :two: Architecture specification
-:gift: :three: prototype code for mutual monitoring transparency service
-:gift: :four: a quantitative cloud security measurement framework
+:gift: :three: Prototype code for mutual monitoring transparency service
+:gift: :four: A quantitative cloud security measurement framework
 
 ---
 
