@@ -67,11 +67,11 @@ A.J. Stein
 
 Architecture specification draft: [conmotion.netlify.app](https://conmotion.netlify.app/architecture.html)
 
-![center](./assets/url_arch_dev.png)
+![](./assets/url_arch_dev.png)
 
 Source code and containers for transparency service: [github.com/aj-stein/conmotion](https://github.com/aj-stein/conmotion/tree/develop/conmotion)
 
-![center](./assets/url_ts_code.png)
+![](./assets/url_ts_code.png)
 
 ---
 
