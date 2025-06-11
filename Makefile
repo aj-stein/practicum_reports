@@ -10,7 +10,7 @@ RM := rm -
 NPX := npx
 MARP_PKG := @marp-team/marp-cli
 MARP_EXE := node_modules/$(MARP_PKG)/marp-cli.js
-MARP_ARGS := -c marp.config.js
+MARP_ARGS := -c marp.config.js --allow-local-files
 
 # Project-specific settings
 DOCNAME = paper
