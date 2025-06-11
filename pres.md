@@ -88,8 +88,8 @@ Source code and containers for transparency service: [github.com/aj-stein/conmot
 
 ### Questions
 
-1. How do I use polls and pseudonymonous content on social media? Should I?
-1. How do I use self-hosted or hosted LLMs do sentiment analysis? Should I?
+1. How do I use polls and pseudonymous content on social media? Should I?
+1. How do I use self-hosted or hosted LLMs for sentiment analysis? Should I?
 
 --- 
 
