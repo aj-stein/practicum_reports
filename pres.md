@@ -77,15 +77,6 @@ Source code and containers for transparency service: [github.com/aj-stein/conmot
 
 ## Challenges
 
-- The usual suspects:
-    - lacking time;
-    - lacking coffee; 
-    - and resulting lack of energy
-
----
-
-## More Challenges
-
 - Implementing against draft specifications
     - Balancing ambiguous tradeoffs
     - Understanding under-documented algorithms foundational to the design
