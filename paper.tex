@@ -22,24 +22,19 @@ I will use this research to design and evaluate an alternative to centralized co
 \section*{Completed Tasks (Last 2 Weeks)}
 
 \begin{enumerate}
-    \item I developed an automated build pipeline for \hyperlink{https://add-architecture-draft--conmotion.netlify.app/architecture.html}{the architecture specification} as a website and downloadable document. Fixing bugs and troubleshooting took more time than I estimated in my plan.
+    \item FedRAMP began to archive some older parts of their modernization forums, which is an important input to my critical analysis of FedRAMP. I therefore had to urgently write export scripts to export the all this (public domain) content to my repositories as to not potentially lose a vital primary resource for my research.
+    \item I completed a draft of the architecture specification. I am sending it subject-matter experts advising me for feedback and further revisions.
+    \item I continued development of of the core transparency service and utility classes shared with Relying Party clients, but development is further behind schedule.
+    \item I had to re-review to additional specifications related to core functionality of transparency services, specifically techniques for detached signatures and digital signing algorithms.
         \begin{itemize}
-            \item I evaluated \hyperlink{https://github.com/martinthomson/i-d-template}{the use of software for authoring specifications popular with IETF standards authors}.
-            \item Due to complexity of modifying the aforementioned tooling to remove IETF branding, copyright notices, styling, and features not suitable to my specification, I designed a workflow to author and manage drafts of the specification, in \hyperlink{https://github.com/aj-stein/conmotion/}{the same source code repository for the prototype}, using the open-source \hyperlink{https://pandoc.org/}{pandoc utility}.
-            \item I developed \hyperlink{https://github.com/aj-stein/conmotion/blob/develop/.github/workflows/cd.yml}{an automation pipeline to execute the publication workflow for the specification remotely in GitHub Actions} to make the authoring process more consistent over time.
-            \item I created and completed troubleshooting on a deployment pipeline for \hyperlink{https://aj-stein.github.io/conmotion/}{the final release} and \hyperlink{https://conmotion.netlify.app/}{incremental draft copies} of the architecture specification to separate release environments. The latter is helpful to streamline feedback with multiple advisors with different copies of changes in parallel. I will also leverage this tooling and infrastructure to manage later deployments of the transparency service prototypes, greatly improving productivity. 
-            \item Due to the custom needs of how I deployed pandoc, I created a \hyperlink{https://github.com/users/aj-stein/packages/container/package/pandoc\%2Flatex}{customized container image} for building the website and convert the website content into a downloadable PDF document.
-            \item I extended my publication workflow to generate images from architecture diagrams in \hyperlink{https://mermaid.js.org/}{the Mermaid family of declarative domain-specific languages for diagrams}.
-            \item I extended my publication workflow to automatically convert the architecture specification webpage into a PDF document and cross-link to it from the webpage to better suit the preferences of several of my advisors.
+            \item \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-scitt-scrapi/}{SCITT Reference API}
+            \item \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-cose-merkle-tree-proofs/}{Merkle Tree Proofs}
+            \item \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-cose-hash-envelope/}{COSE Hash Envelope}
         \end{itemize}
-    \item I wrote multiple sections of \hyperlink{https://add-architecture-draft--conmotion.netlify.app/architecture.html}{the architecture specification draft}. Due to the time spent troubleshooting, I have several more sections to complete.
-    \item For authoring the specification and preparing to develop the core of the prototype, I reviewed the sources below in more detail, modifying the outline and specification accordingly.
-        \begin{itemize}
-            \item transparency service specifications (e.g. \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/}{SCITT}; \hyperlink{https://c2sp.org/static-ct-api}{C2SP Static Certificate Transparency API}) and industry analysis of their efficacy (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#3})
-            \item taxonomies and models for auditing and monitoring (for  \hyperlink{https://github.com/aj-stein/practicum_proposal/blob/main/paper.pdf}{deliverable \#2})
-        \end{itemize}
-    \item I began the development of initial framework code and test harness for the primary component of the data service, but did not complete full development of the transparency service code.
-    \item I continued work on outline for the critical analysis of FedRAMP, but it is not yet complete.
+    \item I outlined my critical analysis of FedRAMP.
+    \item I drafted the critical analysis of FedRAMP, intending to complete draft for subject-matter expert review in the beginning of Week 7.
+    \item I evaluated development of Monte Carlo simulations in Python for cost and duration of FedRAMP continuous monitoring and other FedRAMP processes for consideration in my evaluation plan below.
+    \item I completed more desk research of FedRAMP documentation and industry analyst commentary to fill knowledge gaps for the critical analysis draft.
 \end{enumerate}
 
 \section*{Tasks for the Next Project Report}
@@ -48,19 +43,22 @@ In the next two weeks, I will focus on the following goals. I have sorted them i
 
 \begin{enumerate}
     \item Ramp up development of submission API for cloud service providers and external third-party auditors.
-    \item Complete the architecture specification in full.
-    \item Complete outline of FedRAMP critical analysis.
-    \item Start draft of FedRAMP critical analysis and potentially complete it so I can request feedback from advisors.
+    \item Design the quantitative cloud security measurement framework to implement into transparency service statements.
+    \item Recruit participants to interview as part of my revised strategy documented in my evaluation plan.
 \end{enumerate}
 
 \section*{Questions or issues I'm having}
 
+\subsection*{Deliverables and Scope}
+
+\begin{enumerate}
+    \item I am having more difficulty in translating upstream specifications and reference code for supply chain and certificate transparency services to my cloud security monitoring use cases than I had originally anticipated. I will continue to work on the prototype during and after the practicum, but should I focus the paper and final presentation on a walkthrough of the specification in lieu of incomplete code? Show both anyway?
+\end{enumerate}
+
 \subsection*{Evaluation and Measurement}
 
 \begin{enumerate}
-    \item For more consistency, objectivity, and productivity with sentiment analysis, I am considering using hosted (e.g. OpenAI ChatGPT, Anthropic Claude) or preferably self-hosted (e.g. ollama and open-weight models) LLM tools to analyze the content in lieu of developing my own Python code. Is this permissible? If so, how do I correctly document and cite this analysis?
-    \item Many security professionals do not formally criticize FedRAMP and other programs that require continuous monitoring ``on the record'' with their name and affiliation in peer-reviewed journals or in the mainstream media. However, they frequently write about their frustrations with these programs on social media, primarily by name on LinkedIn and with pseudonyms on platforms like Reddit, Bluesky, and X/Twitter. Is it permissible to consider these as primary sources for quotations? Is it permissible to use them for sentiment analysis?
-    \item Some users post statistics on aggregated responses to polls on related topics without attribution or details about the respondents. Is it permissible for me to use these polls in my deliverables and final report? Am I allowed to create such polls myself and use them in the final report?
+    \item Per the professor's feedback during office hours, I have opted for interviewing those stakeholders for which my problem space and solution is relevant. Qualitative analysis of their comments in interviews will replace different quantitative sampling methods of social media the professors recommended against. To that end, how structured and consistent do the interviews have to be as an important input to the project evaluation?
 \end{enumerate}
 
 \section*{Methodology Paragraph Summary}
@@ -83,47 +81,55 @@ For this project, I will use multiple methods to implement an alternative archit
     % \endfoot    
     % \hline
     % \endlastfoot
-    W3 (May 26 - Jun 1) & Implement data service internals and submission API. & Deferred \\
+    W5 (June 9-15) & Implement data service client to submit to submission API instances. & Continued \\
     \hline
-    W3 & First draft of data service architecture specification. & Deferred \\
+    W5 & Complete data service internals and submission API. & Continued \\
     \hline
-    W4 (June 2-8) & Implement data service internals and submission API. & In Progress \\
+    W5 & Complete outline of FedRAMP ConMon critical analysis. & Continued \\
     \hline
-    W3 (May 26 - Jun 1) & First draft of data service architecture specification. & In Progress \\
+    W5 & Complete FedRAMP critical analysis document. & Deferred \\
+    \hline
+    W6 (June 16-22) & Complete data service client to submit to submission API instances. & Deferred \\
+    \hline
+    W6 & Design MVP continuous monitoring use cases and quantitative measurements. & Deferred \\
+    \hline
+    W6 & Implement data service client to submit to submission API instances. & Pending \\
+    \hline
+    W6 & Complete data service internals and submission API. & Continued \\
+    \hline
+    W6 & Build data export tool for complete, offline archive of 20x forums. & Continued \\
+    \hline
+    W7 (June 23-29) & Complete FedRAMP critical analysis document. & In Progress \\
+    \hline
+    W7 & Complete implementation of data service client to submit to submission API instances. & Pending \\
     \hline    
-    W4 & Continue outline of FedRAMP ConMon critical analysis. & In Progress \\
-    \hline    
-    W4 & Finalize architecture specification with advisors' reviews. & Deferred \\
-    \hline
-    W5 (June 9-15) & Implement data service client to submit to submission API instances. & In Progress \\
-    \hline
-    W5 & Complete data service internals and submission API. & Pending \\
-    \hline
-    W5 & Complete outline of FedRAMP ConMon critical analysis. & In Progress \\
-    \hline    
-    W5 & Complete FedRAMP critical analysis document. & Pending \\
-    \hline
-    W5 & Finalize architecture specification with advisors' reviews. & Pending \\
-    \hline    
-    W6 (June 16-22) & Complete data service client to submit to submission API instances. & Pending \\
-    \hline
-    W6 & Implement continuous monitoring quantitative processing module for API. & Pending \\
-    \hline
-    W6 & Design MVP continuous monitoring use cases and quantitative measurements. & Pending \\
-    \hline
-    W7 (June 23-29) & Complete continuous monitoring quantitative processing module for API. & Pending \\
-    \hline
     W7 & Implement MVP continuous monitoring use cases in API quantitative processing module. & Pending \\
-    \hline    
+    \hline
+    W7 & Design MVP continuous monitoring use cases and quantitative measurements. & Deferred \\
+    \hline
+    W7 & Finalize architecture specification with advisors' reviews. & Pending \\
+    \hline
+    W7 & Implement continuous monitoring quantitative processing module for API. & Deferred \\
+    \hline
+    W7 & Recruit stakeholders to interview for project evaluation. & Pending \\
+    \hline          
     W8 (June 30 - July 6) & Start prototype deployment to cloud service tenants for testing. & Pending \\
     \hline
+    W8 & Design MVP continuous monitoring use cases and quantitative measurements. & Pending \\
+    \hline
+    W8 & Implement continuous monitoring quantitative processing module for API. & Pending \\
+    \hline    
+    W8 & Interview stakeholders for project evaluation. & Pending \\
+    \hline  
     W9 (July 7-13) & Complete prototype deployment to cloud service tenants for testing. & Pending \\
+    \hline
+    W9 & Interview stakeholders for project evaluation. & Pending \\
     \hline
 \end{xltabular}
 
 \section*{Evaluation}
 
-\include{evaluation_plan}
+\input{evaluation_plan}
 
 \section*{Report Outline}
 
