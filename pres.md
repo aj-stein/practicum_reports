@@ -14,7 +14,7 @@ img[alt~="center"] {
 
 # Mutual Monitoring Update
 
-Progress Report 2
+Progress Report 3
 
 A.J. Stein
 [astein38@gatech.edu](mailto:astein38@gatech.edu)
@@ -46,59 +46,61 @@ A.J. Stein
 
 :gift: :one: Critical analysis of FedRAMP
 :gift: :two: Architecture specification
-:gift: :three: Prototype code for mutual monitoring transparency service
+:gift: :three: :shrug: Prototype code for mutual monitoring transparency service :shrug:
 :gift: :four: A quantitative cloud security measurement framework
+:boom: :mag: Evaluation results
 
 ---
 
 ## Status
 
 - :gift: :one: I completed more desk research and fleshed out my deliverables' outline.
-- :gift: :two: I made substantial progress on the architecture specification draft.
-    - I have still some work to do, but finishing beginning of Week 5.
-    - I developed automation for publishing drafts and final specification.
-    - I tried customizing popular tools used by IETF authors, but it wasn't a good.
-    - I will leverage this for deploying prototype code, mentioned below.
-- :gift: :three: I coded the initial prototype code and created initial deployment automation.
+- :gift: :two: I completed a full draft of architecture specification.
+- :gift: :three: I had to quickly write scripts to dump all data from the FedRAMP modernization forum.
+- :gift: :three: I worked on the critical analysis of FedRAMP to complete in the next day or so.
+- :boom: :mag: Publish survey to request interviews with stakeholders for final evaluation.
 
 ---
 
 ## Status
 
-Architecture specification draft: [conmotion.netlify.app](https://conmotion.netlify.app/architecture.html)
+- After less than 24 hours, nine legitimate (and one fake) volunteers.
+- Current sample of volunteer has even distribution of relevant stakeholder backgrounds.
+- Hopefully more to follow!
 
-![](./assets/url_arch_dev.png)
+![](./assets/current_survey_results.png)
 
-Source code and containers for transparency service: [github.com/aj-stein/conmotion](https://github.com/aj-stein/conmotion/tree/develop/conmotion)
-
-![](./assets/url_ts_code.png)
 
 ---
 
 ## Challenges
 
-- Implementing against draft specifications
-    - Balancing ambiguous tradeoffs
-    - Understanding under-documented algorithms foundational to the design
-    - Filling in gaps outside of the specification's scope
-- Balancing developing development; research; and writing on a schedule
-    - Testing and ironing out kinks is frustrating, but necessary
+- Interpreting specs from other use cases for mutual monitoring
+- Finding transparency service data
+  - model resource requirements
+  - compare model of transparency service for mutual monitoring use case
+- Fake volunteers with profane names registering for evaluation interviews
 
 ---
 
 ### Questions
 
-1. How do I use polls and pseudonymous content on social media? Should I?
-1. How do I use self-hosted or hosted LLMs for sentiment analysis? Should I?
+1. Can I deprioritize :gift: :three: the prototype & focus on :gift: :one: the specification?
+1. I will interview stakeholders, what **must** I publish with the final paper?
+    - interview methodology?
+    - interview questions?
+    - detailed (but properly redacted) interview notes?
+1. How do I cite conversations in private Slack channels with developers that make transparency services, but for different use cases than mine?
 
 --- 
 
 ### Next Weeks' Focus
 
-1. :gift: :one: Complete outline of FedRAMP critical analysis.
-1. :gift: :one: Start draft of FedRAMP critical analysis, get feedback from advisors.
-1. :gift: :two: Complete the architecture specification, get feedback from advisors. 
-1. :gift: :three: Complete the submissions API, the core component of the prototype.
+1. :gift: :one: Finish FedRAMP critical analysis, get advisor feedback, polish.
+1. :gift: :two: Update the architecture specification, pending advisor feedback
+1. :gift: :three: :shrug: Reduce scope or stop prototype development. :shrug:
+1. :gift: :four: :shrug: Create the quantitative cloud security measurement framework.
+1. :gift: :dart: Finish outline of final paper, get ready for the end.
 
 ---
 
