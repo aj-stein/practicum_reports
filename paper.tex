@@ -2,7 +2,7 @@
 
 \begin{document}
 Section: PUBP-6727
-\title{Mutual Monitoring in the Cloud \\ Progress Report 3}
+\title{Mutual Monitoring in the Cloud \\ Progress Report 4}
 \author{Alexander Stein}
 
 \maketitle
@@ -22,43 +22,30 @@ I will use this research to design and evaluate an alternative to centralized co
 \section*{Completed Tasks (Last 2 Weeks)}
 
 \begin{enumerate}
-    \item FedRAMP began to archive some older parts of their modernization forums, which is an important input to my critical analysis of FedRAMP. I therefore had to urgently write export scripts to export the all this (public domain) content to my repositories as to not potentially lose a vital primary resource for my research.
-    \item I completed a draft of the architecture specification. I am sending it subject-matter experts advising me for feedback and further revisions.
-    \item I continued development of of the core transparency service and utility classes shared with Relying Party clients, but development is further behind schedule.
-    \item I had to re-review to additional specifications related to core functionality of transparency services, specifically techniques for detached signatures and digital signing algorithms.
-        \begin{itemize}
-            \item \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-scitt-scrapi/}{SCITT Reference API}
-            \item \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-cose-merkle-tree-proofs/}{Merkle Tree Proofs}
-            \item \hyperlink{https://datatracker.ietf.org/doc/draft-ietf-cose-hash-envelope/}{COSE Hash Envelope}
-        \end{itemize}
-    \item I outlined my critical analysis of FedRAMP.
-    \item I drafted the critical analysis of FedRAMP, intending to complete draft for subject-matter expert review in the beginning of Week 7.
-    \item I evaluated development of Monte Carlo simulations in Python for cost and duration of FedRAMP continuous monitoring and other FedRAMP processes for consideration in my evaluation plan below.
-    \item I completed more desk research of FedRAMP documentation and industry analyst commentary to fill knowledge gaps for the critical analysis draft.
+    \item I updated the architecture specification. I am still waiting for final feedback from subject-matter experts advising me.
+    \item I continued limited development of the core transparency service and utility classes shared with Relying Party clients, but I deferred further development.
+    \item I finalized my critical analysis of FedRAMP, waiting for feedback from subject matter experts reviewing my solution.
+    \item I further developed Monte Carlo simulations in Python and supporting data for cost and duration estimation.
+    \item I developed a simple quantitative framework for measuring performance of inventory management and configuration management.
+    \item For evaluating my project with qualitative methods per my plan, I coded the theme, sentiment, and persona of several hundred comments in my archive of past and current FedRAMP 20x working group feedback.
 \end{enumerate}
 
 \section*{Tasks for the Next Project Report}
 
-In the next two weeks, I will focus on the following goals. I have sorted them in order of priority. I will have shift focus to complete and start milestones previously scheduled for weeks three and four due to the troubleshooting described above.
-
-\begin{enumerate}
-    \item Ramp up development of submission API for cloud service providers and external third-party auditors.
-    \item Design the quantitative cloud security measurement framework to implement into transparency service statements.
-    \item Recruit participants to interview as part of my revised strategy documented in my evaluation plan.
-\end{enumerate}
+In the next week, I will complete architecture, analysis, and evaluation. For the following two weeks, I will draft the final paper.
 
 \section*{Questions or issues I'm having}
 
 \subsection*{Deliverables and Scope}
 
 \begin{enumerate}
-    \item I am having more difficulty in translating upstream specifications and reference code for supply chain and certificate transparency services to my cloud security monitoring use cases than I had originally anticipated. I will continue to work on the prototype during and after the practicum, but should I focus the paper and final presentation on a walkthrough of the specification in lieu of incomplete code? Show both anyway?
+    \item I intended to focus on code and accelerate development, but I deferred development to focus on developers which I am closer to completing. 
 \end{enumerate}
 
 \subsection*{Evaluation and Measurement}
 
 \begin{enumerate}
-    \item Per the professor's feedback during office hours, I have opted for interviewing those stakeholders for which my problem space and solution is relevant. Qualitative analysis of their comments in interviews will replace different quantitative sampling methods of social media the professors recommended against. To that end, how structured and consistent do the interviews have to be as an important input to the project evaluation?
+    \item Properly designing user interview questions for interviews and scheduling are a significant challenge, just like the professors warned and I assumed. This next week will be challenging, but I look forward to it!
 \end{enumerate}
 
 \section*{Methodology Paragraph Summary}
@@ -81,29 +68,23 @@ For this project, I will use multiple methods to implement an alternative archit
     % \endfoot    
     % \hline
     % \endlastfoot
-    W5 (June 9-15) & Implement data service client to submit to submission API instances. & Continued \\
-    \hline
-    W5 & Complete data service internals and submission API. & Continued \\
-    \hline
-    W5 & Complete outline of FedRAMP ConMon critical analysis. & Continued \\
-    \hline
-    W5 & Complete FedRAMP critical analysis document. & Deferred \\
-    \hline
     W6 (June 16-22) & Complete data service client to submit to submission API instances. & Deferred \\
     \hline
     W6 & Design MVP continuous monitoring use cases and quantitative measurements. & Deferred \\
     \hline
-    W6 & Implement data service client to submit to submission API instances. & Pending \\
+    W6 & Implement data service client to submit to submission API instances. & Deferred \\
     \hline
-    W6 & Complete data service internals and submission API. & Continued \\
+    W6 & Complete data service internals and submission API. & Deferred \\
     \hline
     W6 & Build data export tool for complete, offline archive of 20x forums. & Continued \\
     \hline
     W7 (June 23-29) & Complete FedRAMP critical analysis document. & In Progress \\
     \hline
-    W7 & Complete implementation of data service client to submit to submission API instances. & Pending \\
+    W7 & Build data export tool for complete, offline archive of 20x forums. & Completed \\
     \hline    
-    W7 & Implement MVP continuous monitoring use cases in API quantitative processing module. & Pending \\
+    W7 & Complete implementation of data service client to submit to submission API instances. & Deferred \\
+    \hline    
+    W7 & Implement MVP continuous monitoring use cases in API quantitative processing module. & Deferred \\
     \hline
     W7 & Design MVP continuous monitoring use cases and quantitative measurements. & Deferred \\
     \hline
@@ -111,20 +92,23 @@ For this project, I will use multiple methods to implement an alternative archit
     \hline
     W7 & Implement continuous monitoring quantitative processing module for API. & Deferred \\
     \hline
-    W7 & Recruit stakeholders to interview for project evaluation. & Pending \\
+    W7 & Recruit stakeholders to interview for project evaluation. & Completed \\
     \hline          
     W8 (June 30 - July 6) & Start prototype deployment to cloud service tenants for testing. & Pending \\
     \hline
-    W8 & Design MVP continuous monitoring use cases and quantitative measurements. & Pending \\
+    W8 & Design MVP continuous monitoring use cases and quantitative measurements. & Completed \\
     \hline
-    W8 & Implement continuous monitoring quantitative processing module for API. & Pending \\
+    W8 & Implement continuous monitoring quantitative processing module for API. & Deferred \\
     \hline    
-    W8 & Interview stakeholders for project evaluation. & Pending \\
+    W8 & Interview stakeholders for project evaluation. & Deferred \\
     \hline  
-    W9 (July 7-13) & Complete prototype deployment to cloud service tenants for testing. & Pending \\
+    W9 (July 7-13) & Complete prototype deployment to cloud service tenants for testing. & Deferred \\
     \hline
     W9 & Interview stakeholders for project evaluation. & Pending \\
     \hline
+    W9 & Complete Monte Carlo simulations and supporting activities for evaluation. & Pending \\
+    W10 (July 14-21) & Tie up loose ends on project deliverables and paper. & Pending \\    
+    \hline    
 \end{xltabular}
 
 \section*{Evaluation}
@@ -133,7 +117,7 @@ For this project, I will use multiple methods to implement an alternative archit
 
 \section*{Report Outline}
 
-[Include an outline of your final report by Progress Report 4. This may expand as you finalize the report.]
+\includepdf[pages=-]{outline.pdf}
 
 \nocite{*}
 \bibliographystyle{apacite}
