@@ -14,7 +14,7 @@ img[alt~="center"] {
 
 # Mutual Monitoring Update
 
-Progress Report 3
+Progress Report 4
 
 A.J. Stein
 [astein38@gatech.edu](mailto:astein38@gatech.edu)
@@ -46,7 +46,7 @@ A.J. Stein
 
 :gift: :one: Critical analysis of FedRAMP
 :gift: :two: Architecture specification
-:gift: :three: :shrug: Prototype code for mutual monitoring transparency service :shrug:
+:gift: :three: <del>Prototype code for mutual monitoring transparency service</del>
 :gift: :four: A quantitative cloud security measurement framework
 :boom: :mag: Evaluation results
 
@@ -54,53 +54,44 @@ A.J. Stein
 
 ## Status
 
-- :gift: :one: I completed more desk research and fleshed out my deliverables' outline.
-- :gift: :two: I completed a full draft of architecture specification.
-- :gift: :three: I had to quickly write scripts to dump all data from the FedRAMP modernization forum.
-- :gift: :three: I worked on the critical analysis of FedRAMP to complete in the next day or so.
-- :boom: :mag: Publish survey to request interviews with stakeholders for final evaluation.
+- :gift: :one: I completed the draft of FedRAMP's critical analysis.
+- :gift: :two: I updated the architecture specification.
+- :gift: :three: I wrapped up development on the transparency service, <del>removed it from final deliverables</del>.
 
 ---
 
 ## Status
 
-- After less than 24 hours, nine legitimate (and one fake) volunteers.
-- Current sample of volunteer has even distribution of relevant stakeholder backgrounds.
-- Hopefully more to follow!
-
-![](./assets/current_survey_results.png)
-
+- :gift: :four: I created a preliminary quantitative measurement framework for cloud security.
+- :boom: :mag: I continued development on Monte Carlo methods for quantitative evaluation.
+- :boom: :mag: I coded all FedRAMP 20x Working Group comments for qualitative evaluation.
 
 ---
 
 ## Challenges
 
-- Interpreting specs from other use cases for mutual monitoring
-- Finding transparency service data
-  - model resource requirements
-  - compare model of transparency service for mutual monitoring use case
-- Fake volunteers with profane names registering for evaluation interviews
+- Deferring my favorite part of the project for later
+- Consistently performing user experience interviews as designed
 
 ---
 
 ### Questions
 
-1. Can I deprioritize :gift: :three: the prototype & focus on :gift: :one: the specification?
 1. I will interview stakeholders, what **must** I publish with the final paper?
     - interview methodology?
     - interview questions?
     - detailed (but properly redacted) interview notes?
-1. How do I cite conversations in private Slack channels with developers that make transparency services, but for different use cases than mine?
 
 --- 
 
 ### Next Weeks' Focus
 
-1. :gift: :one: Finish FedRAMP critical analysis, get advisor feedback, polish.
-1. :gift: :two: Update the architecture specification, pending advisor feedback
-1. :gift: :three: :shrug: Reduce scope or stop prototype development. :shrug:
-1. :gift: :four: :shrug: Create the quantitative cloud security measurement framework.
-1. :gift: :dart: Finish outline of final paper, get ready for the end.
+- Final touches on:
+  - :gift: :one: the critical analysis of FedRAMP
+  - :gift: :two: the architecture specification  
+- :boom: :mag: Complete user experience interviews
+- :boom: :mag: Complete project evaluation
+- :ship: :rocket: Start the final paper
 
 ---
 
