@@ -125,10 +125,20 @@ sourced and multiagency systems_?
 ### What is FedRAMP ConMon?
 
 - Monthly assessments
-  - Updated inventory scans
-  - Updated vulnerability scans
+  - Updated inventory; vulnerability scans; POA&Ms
 - Significant change requests
 - Annual assessments
+  - Updated inventory; vulnerability scans; POA&Ms
+  - Subset of full initial assessment
+
+---
+
+### What is FedRAMP ConMon?
+
+- Out-of-band coordination between provider and agency customers
+- Manual upload of all data to max.gov or high repository
+- Review by agency and FedRAMP PMO staff (sometimes separately)
+- Synchronous meetings to review and adjust POA&Ms
 
 ---
 
@@ -140,9 +150,19 @@ sourced and multiagency systems_?
 
 ---
 
+### What doesn't?
+
+The primary method to interact with FedRAMP:
+
+[![](https://markdown-videos-api.jorgenkh.no/youtube/z8P8XQoYAts)](https://youtu.be/z8P8XQoYAts)
+
+---
+
 ## Solution
 
 ### Prototyping
+
+---
 
 ### Architecture Specification
 
@@ -154,9 +174,26 @@ sourced and multiagency systems_?
 
 ## Solution Limitations
 
+- Incomplete transparency service implementation
+- Additional use cases for quantitative measurement framework
+- Interaction patterns for ecosystem of different transparency services
+
+--- 
+
+## Solution Limitations
+
+- Encrypted data storage for adjacent service confidentiality
+- Custom role-based access control for adjacent service confidentiality
+- Concrete privacy-enhancing techniques for transparency service confidentiality
+
 ---
 
 ## Next Steps and Future Work
+
+- Complete a prototype implementation :crossed_fingers:
+- Vet new use cases for economic incentives of mutual monitoring
+- Design applications of quantitative framework for new use cases
+- Design privacy-enhancing techniques for transparency service confidentiality
 
 ---
 
