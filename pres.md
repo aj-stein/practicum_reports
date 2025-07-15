@@ -99,7 +99,7 @@ sourced and multiagency systems_?
 ### How Did FedRAMP Evolve?
 
 2024 March: Centralized platform announced
-2024 July: M-24-15 disbands JAB; established new FedRAMP board
+2024 July: M-24-15 disbands JAB; establishes new FedRAMP board
 2024 July: M-24-15 requires agency uploads to platform by July 2025
 2025 March: Centralized platform contract halted
 2025 April: FedRAMP downsizes most contractor staff
