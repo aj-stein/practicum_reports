@@ -142,9 +142,30 @@ sourced and multiagency systems_?
 
 ### What works?
 
+- Consistent process (when followed)
+- Rigor in third-party analysis and checking
+- Standardized reporting
+  - Detecting gaps in coverage at points in time
+  - Analyzing trends in cloud security posture
+
 ---
 
 ### What doesn't?
+
+- Manual review and analysis mechanisms
+- Too many different processes based on provider details
+- No automation to retrieve continuous monitoring data
+- No automation to compose security data from leveraged systems
+- Lack of resources for centralized management by PMO
+
+---
+
+### What doesn't?
+
+- No means to continuously check auditor, agency, or FedRAMP repository
+- Lack of verifiable trust mechanisms for alternatives
+  - Decentralized systems
+  - Federated systems
 
 ---
 
@@ -160,13 +181,80 @@ The primary method to interact with FedRAMP:
 
 ### Prototyping
 
+- Started Transparency Service API after first rough draft of spec
+  - Python 3 and Flask REST API framework
+  - Open-source [cryptograph](https://cryptography.io/), [cwt](https://python-cwt.readthedocs.io/) and [requests](https://github.com/psf/requests) libraries
+- Finished initial shared utils works
+- Encountered trouble interpreting multiple IETF specs with more time allotted
+
 ---
 
 ### Architecture Specification
 
+- Use Cases
+- Architecture
+- Components
+- Flows
+
 ---
 
-## Solution Evaluation
+## Evaluation
+
+|   |-2 |-1 | 0 | 1 | 2 |   
+|---|---|---|---|---|---|
+| MAX.gov effective?   |   |   |   |   |   |
+| Leveraged system data effective today?  |   |   |   |   |   |
+| Leveraged system data important in future? |   |   |   |   |   |
+| Submitting raw data effective today? |   |   |   |   |   |
+| Submitting raw data important in future? |   |   |   |   |   |
+| Raw data summary and linkage important in future?  |   |   |   |   |   |
+
+---
+
+## Evaluation
+
+|   |-2 |-1 | 0 | 1 | 2 |   
+|---|---|---|---|---|---|
+| OSCAL important today? |   |   |   |   |   |
+| OSCAL important in future? |   |   |   |   |   |
+| Digital signatures effective today? |   |   |   |   |   |
+| Use digital signatures often today? |   |   |   |   |   |
+| Digital signatures important in future? |   |   |   |   |   |
+
+---
+
+## Evaluation
+
+|   |-2 |-1 | 0 | 1 | 2 |   
+|---|---|---|---|---|---|
+| Common security scanning support effective today? |   |   |   |   |   |
+| Common security scanning support important in future? |   |   |   |   |   |
+| Significant change tracking effective today? |   |   |   |   |   |
+| Significant change tracking important in future? |   |   |   |   |   |
+| Communicating vulnerability management effective today? |   |   |   |   |   |
+| Communicating vulnerability management important in future? |   |   |   |   |   |
+
+---
+
+## Evaluation
+
+|   |-2 |-1 | 0 | 1 | 2 |   
+|---|---|---|---|---|---|
+| Securing confidential data effective today? |   |   |   |   |   |
+| Security confidential data important in future? |   |   |   |   |   |
+| Measuring 3PAO performance effective today? |   |   |   |   |   |
+| Measuring 3PAO performance important in future? |   |   |   |   |   |
+
+---
+
+## Evaluation
+
+|   |-2 |-1 | 0 | 1 | 2 |   
+|---|---|---|---|---|---|
+| Economic incentives effective today? |   |   |   |   |   |
+| Economic incentives important in future?  |   |   |   |   |   |
+| Centralized data management effective today?  |   |   |   |   |   |
+| Decentralized data management important in futre?  |   |   |   |   |   |
 
 ---
 
