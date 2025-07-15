@@ -53,6 +53,14 @@ PUBP-6727 OCY
 
 ---
 
+## How Did You Design This Solution?
+
+- Previous engagement in standards bodies (NIST; FedRAMP; IETF)
+- Analyzing industry trends and academic research
+- Coding public feedback in FedRAMP's 20x forums
+
+---
+
 ## Background
 
 - What is FedRAMP?
