@@ -32,11 +32,11 @@ PUBP-6727 OCY
 
 ---
 
-![bg right](https://www.fedramp.gov/assets/img/fedramp-logo-vert.svg)
+![bg right 75%](https://www.fedramp.gov/assets/img/fedramp-logo-vert.svg)
 
 ## The Problem
 
-- Are these bureaucracies the right way?
+- Are cloud security bureaucracies the right way?
 - Are they the only way?
 - Who watches the watchers?
 
@@ -49,7 +49,94 @@ PUBP-6727 OCY
   - Stakeholders mutually monitor each other with transparency services.
   - Forgo control-driven assessment, focus measurable security properties.
   - Use a simple quantitative framework for measuring properties.
-- Do not authorize, do not score, **only measure** _each other_.
+- Do not certify, do not authorize, but **measure** _each other_.
+
+---
+
+## Background
+
+- What is FedRAMP?
+- What is FedRAMP ConMon?
+- What works? What doesn't?
+
+---
+
+### What is FedRAMP?
+
+In mid-2009, an interagency effort, created under the Federal Cloud Computing
+Initiative, was established to focus on solving a single problem statement—How
+do we best perform security authorization and _continuous monitoring for out-
+sourced and multiagency systems_?
+
+> Metheny, M. (2017). Introduction to the federal cloud computing strategy. In Federal Cloud Computing (pp. 239). Elsevier. https://doi.org/10.1016/b978-0-12-809710-6.00001-9
+
+---
+
+### How Did FedRAMP Evolve?
+
+2011 December: FedRAMP policy signed
+2012 May: Announcement of  third party auditors
+2012 June: FedRAMP officially launches
+2012 December: First provisional FedRAMP authorization
+2013 May: First full authorization of AWS with HHS
+
+> https://www.nextgov.com/modernization/2016/05/a-brief-history-of-fedramp/218162/
+
+---
+
+### How Did FedRAMP Evolve?
+
+2014 June: Deadline fo agency compliance from policy
+2014 December: Announcement of FedRAMP Forward
+2016 March: Revised JAB process and prioritization timelines
+2022 December: FedRAMP Act codified into law
+2023 October: Draft modernization memo published
+
+> https://www.nextgov.com/modernization/2016/05/a-brief-history-of-fedramp/218162/
+
+---
+
+### How Did FedRAMP Evolve?
+
+2024 March: Centralized platform announced
+2024 July: M-24-15 disbands JAB; established new FedRAMP board
+2024 July: M-24-15 requires agency uploads to platform by July 2025
+2025 March: Centralized platform contract halted
+2025 April: FedRAMP downsizes most contractor staff
+2025 March: 20x Modernization Pilots and KSIs announced
+2025 May: Announcement of secure storage standard
+
+> https://www.fedramp.gov/updates/changelog/
+
+---
+
+### What Were the FedRAMP Processes? (:heavy_plus_sign: JAB)
+
+![center 50%](https://storage.googleapis.com/blogs-images-new/ciscoblogs/1/2023/06/01-Understanding-FedRAMP-Authorization-Process.png)
+
+--- 
+
+### What Are the FedRAMP Processes? (:heavy_minus_sign: JAB)
+
+![center 50%](https://www.fedramp.gov/assets/img/authorized_agency_process_1200px.svg)
+
+--- 
+
+### What is FedRAMP ConMon?
+
+- Monthly assessments
+  - Updated inventory scans
+  - Updated vulnerability scans
+- Significant change requests
+- Annual assessments
+
+---
+
+### What works?
+
+---
+
+### What doesn't?
 
 ---
 
