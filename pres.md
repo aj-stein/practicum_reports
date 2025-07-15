@@ -45,7 +45,7 @@ PUBP-6727 OCY
 ## The Solution
 
 - Analyze FedRAMP ConMon's strengths and weaknesses.
-- Design an alternative model.
+- Design an alternative model, for FedRAMP _and_ similar programs.
   - Stakeholders mutually monitor each other with transparency services.
   - Forgo control-driven assessment, focus measurable security properties.
   - Use a simple quantitative framework for measuring properties.
