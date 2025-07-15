@@ -200,61 +200,61 @@ The primary method to interact with FedRAMP:
 
 ## Evaluation
 
-|   |-2 |-1 | 0 | 1 | 2 |   
-|---|---|---|---|---|---|
-| MAX.gov effective?   |   |   |   |   |   |
-| Leveraged system data effective today?  |   |   |   |   |   |
-| Leveraged system data important in future? |   |   |   |   |   |
-| Submitting raw data effective today? |   |   |   |   |   |
-| Submitting raw data important in future? |   |   |   |   |   |
-| Raw data summary and linkage important in future?  |   |   |   |   |   |
+|   |-2 |-1 | 0 | 1 | 2 | :chart_with_upwards_trend: |
+|---|---|---|---|---|---|----------------------------|
+| MAX.gov effective?  | 2 | 1  | 2  | 3  | - | :man_shrugging: |
+| Leveraged system data effective today?  | 1  | 1  | 5 | -  | 1 | :man_shrugging: |
+| **Leveraged system data important in future?** | - | - | - | 1 | 7 | :thumbsup: :thumbsup: :thumbsup: |
+| Submitting raw data effective today? | - | 4 | 2 | 2 | - | :thumbsdown: |
+| **Submitting raw data important in future?** | - | - | 1 | 3 | 4 | :thumbsup: :thumbsup: |
+| **Summarizing and linking to it important?**  | - | - | - | 3 | 5 | :thumbsup: :thumbsup: :thumbsup: |
 
 ---
 
 ## Evaluation
 
-|   |-2 |-1 | 0 | 1 | 2 |   
-|---|---|---|---|---|---|
-| OSCAL important today? |   |   |   |   |   |
-| OSCAL important in future? |   |   |   |   |   |
-| Digital signatures effective today? |   |   |   |   |   |
-| Use digital signatures often today? |   |   |   |   |   |
-| Digital signatures important in future? |   |   |   |   |   |
+|   |-2 |-1 | 0 | 1 | 2 | :chart_with_upwards_trend: |
+|---|---|---|---|---|---|----------------------------|
+| OSCAL important today? | 1 | 2 | 2 | - | 4 | :thumbsup: :thumbsup: |
+| **OSCAL important in future?** | 1 | - | 1 | 2 | 4 | :thumbsup: :thumbsup: |
+| Digital signatures effective today? | 3 | 2 | 3 | - | - | :thumbsdown: :thumbsdown: |
+| Use digital signatures often today? | 4 | 1 | 1 | - | 2 | :thumbsdown: :thumbsdown: |
+| **Digital signatures important in future?** | - | - | 1 | 2 | 5 | :thumbsup: :thumbsup: :thumbsup: |
 
 ---
 
 ## Evaluation
 
-|   |-2 |-1 | 0 | 1 | 2 |   
-|---|---|---|---|---|---|
-| Common security scanning support effective today? |   |   |   |   |   |
-| Common security scanning support important in future? |   |   |   |   |   |
-| Significant change tracking effective today? |   |   |   |   |   |
-| Significant change tracking important in future? |   |   |   |   |   |
-| Communicating vulnerability management effective today? |   |   |   |   |   |
-| Communicating vulnerability management important in future? |   |   |   |   |   |
+|   |-2 |-1 | 0 | 1 | 2 | :chart_with_upwards_trend: |
+|---|---|---|---|---|---|----------------------------|
+| Common scanning support effective today? | 1 | 2 | - | 3 | 2 | :man_shrugging: |
+| **Common scanning support important in future?** | 1 | - | - | 1 | 6 | :thumbsup: :thumbsup: :thumbsup: |
+| Significant change tracking effective today? | 3 | 2 | 2 | 1 | - | :thumbsdown: :thumbsdown: |
+| **Significant change tracking important in future?** | - | 1 | - | 1 | 6 | :thumbsup: :thumbsup: :thumbsup: |
 
 ---
 
 ## Evaluation
 
-|   |-2 |-1 | 0 | 1 | 2 |   
-|---|---|---|---|---|---|
-| Securing confidential data effective today? |   |   |   |   |   |
-| Security confidential data important in future? |   |   |   |   |   |
-| Measuring 3PAO performance effective today? |   |   |   |   |   |
-| Measuring 3PAO performance important in future? |   |   |   |   |   |
+|   |-2 |-1 | 0 | 1 | 2 | :chart_with_upwards_trend: |
+|---|---|---|---|---|---|----------------------------|
+| Vulnerability management effective today? | 1 | 2 | 2 | 1 | 2 | :man_shrugging: |
+| **Vulnerability management important in future?** | - | - | 1 | - | 7 | :thumbsup: :thumbsup: :thumbsup: |
+| Securing confidential data effective today? | 1 | - | 1 | 4 | 2 | :thumbsup: :thumbsup: :thumbsup: |
+| **Securing confidential data important in future?** | - | - | 1 | - | 7 | :thumbsup: :thumbsup: :thumbsup: |
 
 ---
 
 ## Evaluation
 
-|   |-2 |-1 | 0 | 1 | 2 |   
-|---|---|---|---|---|---|
-| Economic incentives effective today? |   |   |   |   |   |
-| Economic incentives important in future?  |   |   |   |   |   |
-| Centralized data management effective today?  |   |   |   |   |   |
-| Decentralized data management important in futre?  |   |   |   |   |   |
+|   |-2 |-1 | 0 | 1 | 2 | :chart_with_upwards_trend: |
+|---|---|---|---|---|---|----------------------------|
+| 3PAO measurement effective today? | 2 | 3 | 2 | 1 | - | :thumbsdown: :thumbsdown: |
+| **3PAO measurement important in future?** | - | - | 2 | 3 | 3 | :thumbsup: :thumbsup: :thumbsup: |
+| Economic incentives effective today? | 3 | 3 | - | 2 | - | :thumbsdown: :thumbsdown: |
+| **Economic incentives important in future?** | - | 1 | - | - | 7 | :thumbsup: :thumbsup: :thumbsup: |
+| Centralization effective today?  | - | 2 | 3 | 2 | 1 | :thumbsup: |
+| **Decentralization important in future?**  | 3 | - | 2 | 1 | 3 | :thumbsup: :thumbsup: |
 
 ---
 
