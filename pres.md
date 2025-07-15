@@ -57,7 +57,8 @@ PUBP-6727 OCY
 
 - What is FedRAMP?
 - What is FedRAMP ConMon?
-- What works? What doesn't?
+- What works?
+- What doesn't?
 
 ---
 
@@ -86,21 +87,18 @@ sourced and multiagency systems_?
 
 ### How Did FedRAMP Evolve?
 
-2014 June: Deadline fo agency compliance from policy
-2014 December: Announcement of FedRAMP Forward
-2016 March: Revised JAB process and prioritization timelines
 2022 December: FedRAMP Act codified into law
 2023 October: Draft modernization memo published
+2024 March: Centralized platform announced
+2024 July: M-24-15 disbands JAB; establishes new FedRAMP board
+2024 July: M-24-15 requires agency uploads to platform by July 2025
 
-> https://www.nextgov.com/modernization/2016/05/a-brief-history-of-fedramp/218162/
+> https://www.fedramp.gov/updates/changelog/
 
 ---
 
 ### How Did FedRAMP Evolve?
 
-2024 March: Centralized platform announced
-2024 July: M-24-15 disbands JAB; establishes new FedRAMP board
-2024 July: M-24-15 requires agency uploads to platform by July 2025
 2025 March: Centralized platform contract halted
 2025 April: FedRAMP downsizes most contractor staff
 2025 March: 20x Modernization Pilots and KSIs announced
