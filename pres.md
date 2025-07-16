@@ -42,14 +42,6 @@ PUBP-6727 OCY
 
 ---
 
-## The Problem
-
-"I think the cloud is so freaking complex. No one knows what is happening and how it works. I think we passed this point several years ago. We've lost our means to even evaluate our risk with the complexity of the cloud."
-
-> Participant 8, experienced FedRAMP assessor
-
----
-
 ## The Solution
 
 - Analyze FedRAMP ConMon's strengths and weaknesses.
@@ -58,14 +50,6 @@ PUBP-6727 OCY
   - Forgo control-driven assessment, focus measurable security properties.
   - Use a simple quantitative framework for measuring properties.
 - Do not certify, do not authorize, but **measure** _each other_.
-
----
-
-## The Solution
-
-"I feel like the optimal end state of this would be there is ingestion of logs and they [the stakeholders] know what's happening. Why not do it [and decentralize continuous monitoring data]? We are throwing all these man hours into it and we could have better data."
-
-> Participant 8, experienced FedRAMP assessor
 
 ---
 
@@ -94,41 +78,6 @@ do we best perform security authorization and _continuous monitoring for out-
 sourced and multiagency systems_?
 
 > Metheny, M. (2017). Introduction to the federal cloud computing strategy. In Federal Cloud Computing (pp. 239). Elsevier. https://doi.org/10.1016/b978-0-12-809710-6.00001-9
-
----
-
-### How Did FedRAMP Evolve?
-
-2011 December: FedRAMP policy signed
-2012 May: Announcement of  third party auditors
-2012 June: FedRAMP officially launches
-2012 December: First provisional FedRAMP authorization
-2013 May: First full authorization of AWS with HHS
-
-> https://www.nextgov.com/modernization/2016/05/a-brief-history-of-fedramp/218162/
-
----
-
-### How Did FedRAMP Evolve?
-
-2022 December: FedRAMP Act codified into law
-2023 October: Draft modernization memo published
-2024 March: Centralized platform announced
-2024 July: M-24-15 disbands JAB; establishes new FedRAMP board
-2024 July: M-24-15 requires agency uploads to platform by July 2025
-
-> https://www.fedramp.gov/updates/changelog/
-
----
-
-### How Did FedRAMP Evolve?
-
-2025 March: Centralized platform contract halted
-2025 April: FedRAMP downsizes most contractor staff
-2025 March: 20x Modernization Pilots and KSIs announced
-2025 May: Announcement of secure storage standard
-
-> https://www.fedramp.gov/updates/changelog/
 
 ---
 
