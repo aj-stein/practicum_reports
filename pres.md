@@ -42,6 +42,14 @@ PUBP-6727 OCY
 
 ---
 
+## The Problem
+
+"I think the cloud is so freaking complex. No one knows what is happening and how it works. I think we passed this point several years ago. We've lost our means to even evaluate our risk with the complexity of the cloud."
+
+> Participant 8, experienced FedRAMP assessor
+
+---
+
 ## The Solution
 
 - Analyze FedRAMP ConMon's strengths and weaknesses.
@@ -50,6 +58,14 @@ PUBP-6727 OCY
   - Forgo control-driven assessment, focus measurable security properties.
   - Use a simple quantitative framework for measuring properties.
 - Do not certify, do not authorize, but **measure** _each other_.
+
+---
+
+## The Solution
+
+"I feel like the optimal end state of this would be there is ingestion of logs and they [the stakeholders] know what's happening. Why not do it [and decentralize continuous monitoring data]? We are throwing all these man hours and we could have better data."
+
+> Participant 8, experienced FedRAMP assessor
 
 ---
 
@@ -131,10 +147,10 @@ sourced and multiagency systems_?
 ### What is FedRAMP ConMon?
 
 - Monthly assessments
-  - Updated inventory; vulnerability scans; POA&Ms
+  - Updated inventory; vulnerability scans; remediation plan
 - Significant change requests
 - Annual assessments
-  - Updated inventory; vulnerability scans; POA&Ms
+  - Updated inventory; vulnerability scans; remediation plan
   - Subset of full initial assessment
 
 ---
@@ -163,8 +179,8 @@ sourced and multiagency systems_?
 - Manual review and analysis mechanisms
 - Too many different processes based on provider details
 - No automation to retrieve continuous monitoring data
-- No automation to compose security data from leveraged systems
-- Lack of resources for centralized management by PMO
+- No automation to combine data with "CSPs of the CSP"
+- Centralized reviews and approvals slow change
 
 ---
 
