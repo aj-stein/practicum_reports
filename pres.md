@@ -1,6 +1,6 @@
 ---
 marp: true
-title: "Mutual Monitoring Updates"
+title: "Mutual Monitoring in the Cloud"
 author: A.J. Stein
 paginate: true
 ---
@@ -12,7 +12,7 @@ img[alt~="center"] {
 }
 </style>
 
-# Mutual Monitoring Update
+# Mutual Monitoring in the Cloud
 
 Final Presentation
 
@@ -194,6 +194,11 @@ sourced and multiagency systems_?
 ---
 
 ## Solution
+
+- Prototyping software
+- Architecture specification
+
+---
 
 ### Prototyping
 
