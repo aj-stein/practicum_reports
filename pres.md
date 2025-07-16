@@ -193,14 +193,6 @@ sourced and multiagency systems_?
 
 ---
 
-### What doesn't?
-
-The primary method to interact with FedRAMP:
-
-[![](https://markdown-videos-api.jorgenkh.no/youtube/z8P8XQoYAts)](https://youtu.be/z8P8XQoYAts)
-
----
-
 ## Solution
 
 ### Prototyping
@@ -232,6 +224,8 @@ The primary method to interact with FedRAMP:
 | Submitting raw data effective today? | - | 4 | 2 | 2 | - | :thumbsdown: |
 | **Submitting raw data important in future?** | - | - | 1 | 3 | 4 | :thumbsup: :thumbsup: |
 | **Summarizing and linking to it important?**  | - | - | - | 3 | 5 | :thumbsup: :thumbsup: :thumbsup: |
+
+:chart_with_upwards_trend: key: :thumbsdown: bad :man_shrugging: neutral :thumbsup: good
 
 ---
 
