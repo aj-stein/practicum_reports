@@ -225,7 +225,7 @@ sourced and multiagency systems_?
 | **Submitting raw data important in future?** | - | - | 1 | 3 | 4 | :thumbsup: :thumbsup: |
 | **Summarizing and linking to it important?**  | - | - | - | 3 | 5 | :thumbsup: :thumbsup: :thumbsup: |
 
-:chart_with_upwards_trend: key: :thumbsdown: bad :man_shrugging: neutral :thumbsup: good
+:chart_with_upwards_trend: key: :thumbsdown: negative :man_shrugging: neutral :thumbsup: positive
 
 ---
 
@@ -239,6 +239,8 @@ sourced and multiagency systems_?
 | Use digital signatures often today? | 4 | 1 | 1 | - | 2 | :thumbsdown: :thumbsdown: |
 | **Digital signatures important in future?** | - | - | 1 | 2 | 5 | :thumbsup: :thumbsup: :thumbsup: |
 
+:chart_with_upwards_trend: key: :thumbsdown: negative :man_shrugging: neutral :thumbsup: positive
+
 ---
 
 ## Evaluation
@@ -250,6 +252,8 @@ sourced and multiagency systems_?
 | Significant change tracking effective today? | 3 | 2 | 2 | 1 | - | :thumbsdown: :thumbsdown: |
 | **Significant change tracking important in future?** | - | 1 | - | 1 | 6 | :thumbsup: :thumbsup: :thumbsup: |
 
+:chart_with_upwards_trend: key: :thumbsdown: negative :man_shrugging: neutral :thumbsup: positive
+
 ---
 
 ## Evaluation
@@ -260,6 +264,8 @@ sourced and multiagency systems_?
 | **Vulnerability management important in future?** | - | - | 1 | - | 7 | :thumbsup: :thumbsup: :thumbsup: |
 | Securing confidential data effective today? | 1 | - | 1 | 4 | 2 | :thumbsup: :thumbsup: :thumbsup: |
 | **Securing confidential data important in future?** | - | - | 1 | - | 7 | :thumbsup: :thumbsup: :thumbsup: |
+
+:chart_with_upwards_trend: key: :thumbsdown: negative :man_shrugging: neutral :thumbsup: positive
 
 ---
 
@@ -273,6 +279,8 @@ sourced and multiagency systems_?
 | **Economic incentives important in future?** | - | 1 | - | - | 7 | :thumbsup: :thumbsup: :thumbsup: |
 | Centralization effective today?  | - | 2 | 3 | 2 | 1 | :thumbsup: |
 | **Decentralization important in future?**  | 3 | - | 2 | 1 | 3 | :thumbsup: :thumbsup: |
+
+:chart_with_upwards_trend: key: :thumbsdown: negative :man_shrugging: neutral :thumbsup: positive
 
 ---
 
