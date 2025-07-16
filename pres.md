@@ -63,7 +63,7 @@ PUBP-6727 OCY
 
 ## The Solution
 
-"I feel like the optimal end state of this would be there is ingestion of logs and they [the stakeholders] know what's happening. Why not do it [and decentralize continuous monitoring data]? We are throwing all these man hours and we could have better data."
+"I feel like the optimal end state of this would be there is ingestion of logs and they [the stakeholders] know what's happening. Why not do it [and decentralize continuous monitoring data]? We are throwing all these man hours into it and we could have better data."
 
 > Participant 8, experienced FedRAMP assessor
 
