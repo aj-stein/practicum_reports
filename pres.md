@@ -216,6 +216,15 @@ sourced and multiagency systems_?
 
 ## Evaluation
 
+|                                                    | Yes | No |
+|----------------------------------------------------|-----|----|
+| Did you request access to max.gov FedRAMP package? | 2   | 6  |
+| Did you receive max.gov's FedRAMP package?         | 3   | 5  |
+
+---
+
+## Evaluation
+
 |   |-2 |-1 | 0 | 1 | 2 | :chart_with_upwards_trend: |
 |---|---|---|---|---|---|----------------------------|
 | MAX.gov effective?  | 2 | 1  | 2  | 3  | - | :man_shrugging: |
